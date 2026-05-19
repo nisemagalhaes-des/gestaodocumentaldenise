@@ -44,7 +44,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .nav {
-  min-height: 110px;
+  min-height: 92px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,7 +76,6 @@ a { color: inherit; text-decoration: none; }
   color: var(--muted);
   font-size: 0.88rem;
 }
-
 .menu {
   display: flex;
   gap: 26px;
@@ -466,6 +465,9 @@ h3 {
 
 @media (max-width: 780px.brand-logo {
   height: 58px;
+}.brand-symbol {
+  height: 54px;
+  width: 54px;
 }) {
   .nav {
     flex-wrap: wrap;
