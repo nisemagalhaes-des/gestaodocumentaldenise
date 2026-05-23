@@ -454,43 +454,92 @@ h3 {
 .footer strong, .footer a { color: white; }
 
 @media (max-width: 1024px) {
-  .hero-grid, .strip-grid, .deliverables, .about-grid {
+  .hero-grid,
+  .strip-grid,
+  .deliverables,
+  .about-grid {
     grid-template-columns: 1fr;
   }
-  .card-grid.three { grid-template-columns: repeat(2, 1fr); }
-  .audience-grid { grid-template-columns: repeat(2, 1fr); }
-  .panel-stats, .deliverables-list { grid-template-columns: 1fr; }
-  .footer-grid { grid-template-columns: 1fr; }
+
+  .card-grid.three {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-grid.two {
+    grid-template-columns: 1fr;
+  }
+
+  .audience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .panel-stats,
+  .deliverables-list {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-@media (max-width: 780px.brand-logo {
-  height: 58px;
-}.brand-symbol {
-  height: 54px;
-  width: 54px;
-}) {
+@media (max-width: 780px) {
   .nav {
     flex-wrap: wrap;
     justify-content: center;
     padding: 14px 0;
   }
+
+  .brand-symbol {
+    height: 54px;
+    width: 54px;
+  }
+
   .menu {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
   }
-  .hero { padding-top: 64px; }
-  .card-grid.three, .audience-grid { grid-template-columns: 1fr; }
-  .timeline-item { grid-template-columns: 1fr; }
-  .timeline-number { min-height: 64px; }
-  .cta-box { padding: 34px 22px; }
+
+  .hero {
+    padding-top: 64px;
+  }
+
+  .card-grid.three,
+  .audience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-number {
+    min-height: 64px;
+  }
+
+  .cta-box {
+    padding: 34px 22px;
+  }
 }
 
-@media (max-width: 560px.brand-logo {
-  height: 50px;
-}) {
-  .btn { width: 100%; }
-  .hero-actions, .cta-actions { flex-direction: column; }
-  .hero-badges { flex-direction: column; }
+@media (max-width: 560px) {
+  .brand-symbol {
+    height: 50px;
+    width: 50px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero-actions,
+  .cta-actions {
+    flex-direction: column;
+  }
+
+  .hero-badges {
+    flex-direction: column;
+  }
 }
