@@ -369,7 +369,21 @@ h3 {
   align-items: center;
 }
 
-.portrait-card {
+.portrait-card .photo-card {
+  padding: 18px;
+  overflow: hidden;
+}
+
+.portrait-photo {
+  width: 100%;
+  max-width: 420px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 26px;
+  display: block;
+  box-shadow: var(--shadow);
+} {
   border-radius: 32px;
   min-height: 370px;
   display: grid;
