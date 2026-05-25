@@ -563,3 +563,20 @@ h3 {
   box-shadow: 0 12px 28px rgba(47, 42, 36, 0.06) !important;
   font-size: 1.8rem !important;
 }
+.hero-photo-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 28px;
+  padding: 14px;
+  overflow: hidden;
+}
+
+.hero-photo {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 22px;
+  display: block;
+}
