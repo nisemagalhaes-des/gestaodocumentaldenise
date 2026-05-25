@@ -556,3 +556,9 @@ h3 {
     flex-direction: column;
   }
 }
+.timeline-number {
+  background: linear-gradient(135deg, #b4874b, #d8c3a2) !important;
+  color: #2f2a24 !important;
+  box-shadow: 0 16px 34px rgba(180, 135, 75, 0.20) !important;
+  font-size: 1.9rem !important;
+}
